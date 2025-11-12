@@ -47,6 +47,7 @@ organizada.
 
 public class Estructurado {
 
+
 // Variables
 static String caseCode = "C-001";
 static String caseType = "Civil";
