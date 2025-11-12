@@ -1,10 +1,10 @@
-#  Sistema de Gestión para una Firma de Abogados
+Sistema de Gestión para una Firma de Abogados
 
 Este documento describe los principales **objetos** (clases) de un sistema para una firma de abogados, con sus **atributos** y **métodos** básicos.
 
 
 
-## 1. Abogado
+1. Abogado
 
 **Descripción:**  
 Representa a un abogado de la firma.
@@ -40,7 +40,7 @@ Representa a una persona o empresa que contrata los servicios de la firma.
 - firmarContrato()  
 
 
-##  3. Caso
+3. Caso
 
 **Descripción:**  
 Representa un caso legal que la firma lleva.
@@ -59,7 +59,7 @@ Representa un caso legal que la firma lleva.
 
 
 
-##  4. Cita
+4. Cita
 
 **Descripción:**  
 Representa una reunión entre abogado y cliente.
@@ -78,7 +78,7 @@ Representa una reunión entre abogado y cliente.
 
 
 
-##  5. Factura
+5. Factura
 
 **Descripción:**  
 Representa el cobro de los servicios legales.
