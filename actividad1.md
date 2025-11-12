@@ -22,7 +22,7 @@ Representa a un abogado de la firma.
 - representarEnJuicio()  
 
 
-##  2. Cliente
+2. Cliente
 
 **Descripción:**  
 Representa a una persona o empresa que contrata los servicios de la firma.
