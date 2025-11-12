@@ -42,7 +42,7 @@ organizada.
 
 Ejemplo Conceptual:
 
-1. Programación Estructurada
+1.Programación Estructurada
 
 
 public class Estructurado {
