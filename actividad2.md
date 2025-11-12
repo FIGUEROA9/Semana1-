@@ -42,7 +42,7 @@ organizada.
 
 Ejemplo Conceptual:
 
-### 1. Programación Estructurada
+1. Programación Estructurada
 
 
 public class Estructurado {
@@ -68,7 +68,7 @@ public static void main(String[] args) {
 
 
 
-###  2. programación orientada a objetos
+2. programación orientada a objetos
 
 
 class LegalCase {
