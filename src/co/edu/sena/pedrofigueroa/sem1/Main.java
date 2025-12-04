@@ -12,6 +12,5 @@ public class Main {
         caso2.showinfo();
         caso3.showinfo();
 
-
     }
 }
