@@ -1,14 +1,17 @@
-package co.edu.sena.pedrofigueroa.sem1.sem2;
+package co.edu.sena.pedrofigueroa.sem2;
 import java.util.ArrayList;
-class Gestora {
+public class Gestora{
 
     private ArrayList<Cliente> listaClientes;
     private ArrayList<Lawyer> listaAbogados;
+
 
     public Gestora() {
         listaClientes = new ArrayList<>();
         listaAbogados = new ArrayList<>();
     }
+
+
 
     public void agregarCliente(Cliente c) {
         listaClientes.add(c);

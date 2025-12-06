@@ -1,4 +1,4 @@
-package co.edu.sena.pedrofigueroa.sem1.sem2;
+package co.edu.sena.pedrofigueroa.sem2;
 public class Main {
 	public static void main(String[] args) {
 		

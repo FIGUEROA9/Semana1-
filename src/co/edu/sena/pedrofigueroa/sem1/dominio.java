@@ -1,16 +1,59 @@
-class LegalCase {
+package co.edu.sena.pedrofigueroa.sem1;
+
+public class Dominio{
     private String caseId;
     private String caseType;
     private String lawyerName;
     private String lawFirm;
 
-    public LegalCase(String caseId, String caseType, String lawyerName, String lawFirm){
+    public Dominio(){
+
+    }
+    public Dominio(String caseId, String caseType, String lawyerName, String lawFirm){
 
         this.caseId = caseId;
         this.caseType = caseType;
         this.lawyerName = lawyerName;
         this.lawFirm = lawFirm;
     }
+
+    public String getCaseId() {
+        return caseId;
+    }
+
+    public void setCaseId(String caseId) {
+        if (caseId != null && !caseId.isEmpty()) { // validación
+            this.caseId = caseId;
+        } else {
+            System.out.println("Error");
+        }
+    }
+
+
+    public String getCaseType() {
+        return caseType;
+    }
+
+    public void setCaseType(String caseType) {
+        this.caseType = caseType;
+    }
+
+    public String getLawyerName() {
+        return lawyerName;
+    }
+
+    public void setLawyerName(String lawyerName) {
+        this.lawyerName = lawyerName;
+    }
+
+    public String getLawFirm() {
+        return lawFirm;
+    }
+
+    public void setLawFirm(String lawFirm) {
+        this.lawFirm = lawFirm;
+    }
+
 
     public void showInfo() {
         System.out.println("Caso: " + caseId);
@@ -23,25 +66,3 @@ class LegalCase {
 
 }
 
-public class dominio {
-    public static void main(String[] args) {
-
-        LegalCase case1 = new LegalCase("CASE-001", "Derecho Laboral", "Dr. Martinez", "Bufete Justicia & Asociados");
-
-        LegalCase case2 = new LegalCase("CASE-002", "Derecho Civil", "Dra. Lopez", "Legal Trust Group");
-
-        LegalCase case3 = new LegalCase("CASE-003", "Derecho Penal", "Dr. Gomez", "Defensa Penal Elite");
-
-        LegalCase case4 = new LegalCase("CASE-004", "Derecho Comercial", "Dra. Torres", "Corporativo Legal Global");
-
-
-        LegalCase case5 = new LegalCase("CASE-005", "Derecho de Familia", "Dr. Rodriguez", "Familia & Ley Consultores");
-
-        case1.showInfo();
-        case2.showInfo();
-        case3.showInfo();
-        case4.showInfo();
-        case5.showInfo();
-    }
-
-}
