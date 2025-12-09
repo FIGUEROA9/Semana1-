@@ -12,11 +12,11 @@ public class Main {
 		abogado1.Presentacion();
         
 
-        // Agregarlos al sistema
+        // Agregarlos
         sistema.agregarCliente(cliente1);
         sistema.agregarAbogado(abogado1);
 
-        // Mostrar todo
+        // Mostrarlos
         sistema.mostrarClientes();
         sistema.mostrarAbogados();
     }
