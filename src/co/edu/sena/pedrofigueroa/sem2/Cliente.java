@@ -3,7 +3,7 @@ class Cliente{
     private String nombre;
     private String cedula;
     private String telefono;
-    
+
     public Cliente(){
 
     }
@@ -13,11 +13,11 @@ class Cliente{
         this.telefono = telefono;
     }
 
-    
+
     public String getNombre() {
 
         return nombre;
-     }
+    }
     public void setNombre(String nombre) {
         if (nombre != null && !nombre.isEmpty()) {
             this.nombre = nombre;
@@ -38,13 +38,13 @@ class Cliente{
         }
     }
 
-    public String getTelefono() { 
+    public String getTelefono() {
 
         return telefono;
-     }
+    }
     public void setTelefono(String telefono) {
         this.telefono = telefono;
-     }
+    }
 
 
     public void Datos() {

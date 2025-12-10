@@ -1,6 +1,6 @@
 package co.edu.sena.pedrofigueroa.sem1;
 
-public class Dominio{
+class Dominio{
     private String caseId;
     private String caseType;
     private String lawyerName;

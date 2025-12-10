@@ -1,16 +1,16 @@
 package co.edu.sena.pedrofigueroa.sem2;
 public class Main {
-	public static void main(String[] args) {
-		
-	
+    public static void main(String[] args) {
+
+
         Gestora sistema = new Gestora();
 
- Cliente cliente1 = new Cliente("martha hoyos", "1000125788" , "3125678439");
-	        
-		Lawyer abogado1 = new Lawyer("jesus alberto", "derecho familiar" , "59.000", cliente1);
-		
-		abogado1.Presentacion();
-        
+        Cliente cliente1 = new Cliente("martha hoyos", "1000125788" , "3125678439");
+
+        Lawyer abogado1 = new Lawyer("jesus alberto", "derecho familiar" , "59.000", cliente1);
+
+        abogado1.Presentacion();
+
 
         // Agregarlos
         sistema.agregarCliente(cliente1);
@@ -20,4 +20,4 @@ public class Main {
         sistema.mostrarClientes();
         sistema.mostrarAbogados();
     }
-}		
+}
