@@ -36,6 +36,19 @@ public class CorporateLawyer extends Abogado {
             System.out.println("ENVIO MI HOJA DE VIDA PARA SER ESTUDIADA POR LOS EXPERTOS DE LA FIRMA DE ABOGADOS");
 
     }
+    
+    @Override
+    public void showInfo(){
+        System.out.println("soy el abogado " + nombre);
+        System.out.println("correo: " + email);
+        System.out.println("c.c n° " + numeroCedula);
+        System.out.println("N° licencia " + numeroLicencia);
+        System.out.println("cuento con: " + nombre + "años de experiencia ");
+        System.out.println("trabajo para: " + empresasClientes + "en la actualidad ");
+        System.out.println("estoy asignado al departamento:" + departamentoAsignado);
+        
+        
+    }
 
 
 }
