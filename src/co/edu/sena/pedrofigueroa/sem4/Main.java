@@ -10,5 +10,9 @@ public class Main {
         System.out.println(per1.getNombre());
         
         
+        CorporateLawyer num1 = new CorporateLawyer();
+        num1.HojaDeVida();
+        num1.setNombre("laura");
+        System.out.println(num1.getNombre());
     }
 }
