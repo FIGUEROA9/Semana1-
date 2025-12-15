@@ -1,4 +1,4 @@
-package src.co.edu.sena.pedrofigueroa.sem4;
+package co.edu.sena.pedrofigueroa.sem4;
 public class PenalLawyer extends Abogado {
 
     private int casosGanados;
@@ -8,9 +8,9 @@ public class PenalLawyer extends Abogado {
         super();
     }
 
-    public PenalLawyer(String nombre, String email, int numeroCedula, int numeroLicencia, int añosExperiencia,
+   public PenalLawyer(String nombre, String email, int numeroCedula, int numeroLicencia, int experiencia,
                        int casosGanados, String riesgoCasos) {
-        super(nombre, email, numeroCedula, numeroLicencia, añosExperiencia);
+        super(nombre, email, numeroCedula, numeroLicencia,experiencia);
         this.casosGanados = casosGanados;
         this.riesgoCasos = riesgoCasos;
     }

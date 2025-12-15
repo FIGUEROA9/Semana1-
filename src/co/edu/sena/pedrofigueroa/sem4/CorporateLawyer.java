@@ -1,6 +1,6 @@
-package src.co.edu.sena.pedrofigueroa.sem4;
+package co.edu.sena.pedrofigueroa.sem4;
 
-public class CorporateLawyer extend Abogado{
+public class CorporateLawyer extends Abogado {
 
     
     private int empresasClientes;
@@ -9,8 +9,8 @@ public class CorporateLawyer extend Abogado{
     public CorporateLawyer(){
     }
 
-    public CorporateLawyer(String nombre, String email, int numeroCedula, int numeroLicencia, int añosExperiencia,int empresasClientes,String departamentoAsignado){
-        super(nombre.email.numeroCedula.numeroLicencia.añosExperiencia);
+    public CorporateLawyer(String nombre, String email, int numeroCedula, int numeroLicencia, int experiencia,int empresasClientes,String departamentoAsignado){
+        super(nombre,email,numeroCedula,numeroLicencia,experiencia);
         this.empresasClientes = empresasClientes;
         this.departamentoAsignado = departamentoAsignado;
     }
@@ -24,7 +24,7 @@ public class CorporateLawyer extend Abogado{
     }
 
     public String getDepartamentoAsignado() {
-            return departamentoAsiganado;
+            return departamentoAsignado;
     }
 
     public void setDepartamentoAsignado(int empresasClientes) {
