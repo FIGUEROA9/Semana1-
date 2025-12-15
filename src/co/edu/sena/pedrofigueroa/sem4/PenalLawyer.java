@@ -33,12 +33,8 @@ public class PenalLawyer extends Abogado {
     
     @Override
     public void showInfo(){
-    System.out.println("soy el abogado " + nombre);
-        System.out.println("correo: " + email);
-        System.out.println("c.c n° " + numeroCedula);
-        System.out.println("N° licencia " + numeroLicencia);
-        System.out.println("cuento con: " + nombre + "años de experiencia ");
-        System.out.println("trabajo para: " + empresasClientes + "en la actualidad ");
-        System.out.println("estoy asignado al departamento:" + departamentoAsignado);
+        super.showInfo();
+        System.out.println("El numero de casos ganados es: " + casosGanados + "en la actualidad ");
+        System.out.println("Evaluando su caso es: " + riesgoCasos);
    }
 }

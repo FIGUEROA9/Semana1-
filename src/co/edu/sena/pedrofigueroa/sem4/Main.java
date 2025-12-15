@@ -1,18 +1,32 @@
 package co.edu.sena.pedrofigueroa.sem4;
+
 public class Main {
-    public static void main (String[] args){
+    public static void main(String[] args) {
+
         
         Abogado per1 = new Abogado();
-        
-        per1.setNombre("pedro");
-        per1.getNombre();
-        
+        per1.setNombre("Pedro");
         System.out.println(per1.getNombre());
-        
+
         
         CorporateLawyer num1 = new CorporateLawyer();
-        num1.HojaDeVida();
-        num1.setNombre("laura");
+        num1.setNombre("Laura");
+        num1.setEmpresasClientes(5);
+        num1.setDepartamentoAsignado("Área Corporativa");
+        num1.hojaDeVida();
         System.out.println(num1.getNombre());
+
+        
+        CorporateLawyer corp = new CorporateLawyer(
+            "Pedro",
+            "pedro@email.com",
+            123456,
+            78910,
+            6,
+            3, 
+            "Departamento Legal Corporativo"
+        );
+
+        corp.showInfo();  
     }
 }

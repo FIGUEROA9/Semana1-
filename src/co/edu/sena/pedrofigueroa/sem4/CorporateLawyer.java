@@ -26,7 +26,7 @@ public class CorporateLawyer extends Abogado {
             return departamentoAsignado;
     }
 
-    public void setDepartamentoAsignado(int empresasClientes) {
+    public void setDepartamentoAsignado(String empresasClientes) {
             this.departamentoAsignado = departamentoAsignado;
     }
 
@@ -39,16 +39,10 @@ public class CorporateLawyer extends Abogado {
     
     @Override
     public void showInfo(){
-        System.out.println("soy el abogado " + nombre);
-        System.out.println("correo: " + email);
-        System.out.println("c.c n° " + numeroCedula);
-        System.out.println("N° licencia " + numeroLicencia);
-        System.out.println("cuento con: " + nombre + "años de experiencia ");
+        super.showInfo();
         System.out.println("trabajo para: " + empresasClientes + "en la actualidad ");
-        System.out.println("estoy asignado al departamento:" + departamentoAsignado);
+        System.out.println("estoy asignado al departamento: " + departamentoAsignado);
         
         
     }
-
-
 }
