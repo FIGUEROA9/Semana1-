@@ -9,15 +9,15 @@ public class Main {
         System.out.println(per1.getNombre());
 
         
-        CorporateLawyer num1 = new CorporateLawyer();
-        num1.setNombre("Laura");
-        num1.setEmpresasClientes(5);
-        num1.setDepartamentoAsignado("Área Corporativa");
-        num1.hojaDeVida();
-        System.out.println(num1.getNombre());
+        CorporateLawyer corp = new CorporateLawyer();
+        corp.setNombre("Laura");
+        corp.setEmpresasClientes(5);
+        corp.setDepartamentoAsignado("Área Corporativa");
+        corp.hojaDeVida();
+        System.out.println(corp.getNombre());
 
         
-        CorporateLawyer corp = new CorporateLawyer(
+        CorporateLawyer corp2 = new CorporateLawyer(
             "Pedro",
             "pedro@email.com",
             123456,
@@ -28,5 +28,18 @@ public class Main {
         );
 
         corp.showInfo();  
+        
+        PenalLawyer pen1 = new PenalLawyer(
+        "laurence",
+        "laurence22_@gmail.com",
+        223365,
+        7689,
+        7,
+        5,
+        "intermedio"
+        
+        );
+        pen1.showInfo();
     }
+    
 }
