@@ -55,11 +55,10 @@ public class Abogado {
 
     public void showInfo(){
         System.out.println(" mi nombre es:" + nombre );
-        System.out.println("Nombre: " + email);
-        System.out.println(" cc " + numeroCedula);
+        System.out.println("mi correo personal es: " + email);
+        System.out.println(" identificacion numero: " + numeroCedula);
         System.out.println("numero de licencia " + numeroLicencia);
-        System.out.println(" PRESENTO DE ABOGADO");
-        System.out.println("Nombre: " + experiencia);
+        System.out.println("tengo " + experiencia + "en el area");
     }
     
 }
