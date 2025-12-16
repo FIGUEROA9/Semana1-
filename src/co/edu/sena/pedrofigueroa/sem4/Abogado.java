@@ -6,18 +6,18 @@ public class Abogado {
     protected String email;
     protected int numeroCedula;
     protected int numeroLicencia;
-    protected int añosExperiencia;
+    protected int experiencia;
     
     public Abogado (){
     }
-    public Abogado(String nombre, String email, int numeroCedula, int numeroLicencia, int añosExperiencia){
+    public Abogado(String nombre, String email, int numeroCedula, int numeroLicencia, int experiencia){
         this.nombre = nombre;
         this.email = email;
         this.numeroCedula = numeroCedula;
         this.numeroLicencia = numeroLicencia;
-        this.añosExperiencia = añosExperiencia;
+        this.experiencia = experiencia;
     }
-    
+
     public String getNombre(){
         return nombre;
     }
@@ -42,16 +42,24 @@ public class Abogado {
     public void setNumeroLicencia(int numeroLicencia){
         this.numeroLicencia = numeroLicencia;
     }
-    public int getAñosExperiencia(){
-        return añosExperiencia;
+    public int getExperiencia(){
+        return experiencia;
     }
-    public void setAñosExperiencia(String añosExperiwncia){
-        this.añosExperiencia = añosExperiencia;
+    public void setExperiencia(String añosExperiwncia){
+        this.experiencia = experiencia;
     }
     
     public void HojaDeVida(){
         System.out.println(" PRESENTO MI HOJA DE VIDA PARA LABORAR EN ESTE BUFET");
     }
-    
+
+    public void showInfo(){
+        System.out.println(" mi nombre es:" + nombre );
+        System.out.println("Nombre: " + email);
+        System.out.println(" cc " + numeroCedula);
+        System.out.println("numero de licencia " + numeroLicencia);
+        System.out.println(" PRESENTO DE ABOGADO");
+        System.out.println("Nombre: " + experiencia);
+    }
     
 }

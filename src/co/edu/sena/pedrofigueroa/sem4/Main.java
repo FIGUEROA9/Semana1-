@@ -40,6 +40,9 @@ public class Main {
         
         );
         pen1.showInfo();
+        System.out.println(pen1.getExperiencia());
+
+
     }
     
 }
