@@ -42,7 +42,20 @@ public class Main {
         pen1.showInfo();
         System.out.println(pen1.getExperiencia());
 
-
+        Abogado[] Abogados = new Abogado[3];
+        Abogados[0] = new Abogado ("Alberto","Dueñas@hotmail.com",67532890,4358,11);
+        Abogados[1] = new CorporateLawyer ("Gilberto","lemus@hotmail.com",19926789,4322,11,10,"Departamento legal petrolifico");
+        Abogados[2] = new PenalLawyer("Hernan","zuñiga@hotmail.com",39486219,4377,8,5,"Dificil");
+        
+        
+        for(Abogado MisAbogados: Abogados){
+               MisAbogados.showInfo();
+               
+        }
+        
+        
+        
+        
     }
     
 }
